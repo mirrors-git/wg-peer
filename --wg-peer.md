@@ -19,4 +19,4 @@ where:
 - delete peer: `wg-peer d kTU5yhp1qPBHsKhKs4aSgPKRotU4bGPhl3y8dHD1Ki4=`
 
 ### Screenshots
-![Screenshot](https://images2.imgbox.com/0c/a5/i8xYgyra_o.png)
+![Screenshot](https://images2.imgbox.com/0f/0a/DbVVJ3sY_o.jpg)
