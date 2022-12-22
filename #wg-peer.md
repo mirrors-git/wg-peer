@@ -14,6 +14,8 @@ where:
 
 **\<peer\>** is the peer public key as shown by list command
 
+Added peers config files for respective clients are saved in `/etc/wireguard/clients`.
+
 ### Examples
 - list peers: `wg-peer l`
 - add a new peer: `wg-peer a`
