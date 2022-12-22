@@ -11,6 +11,7 @@ where:
 - **s[how]** : show peer configuration
 - **d[el]**  : delete peer
 - **l[ist]** : list peers
+**<peer>*** is the peer public key as shown by list command
 
 ### Examples
 - list peers: `wg-peer l`
