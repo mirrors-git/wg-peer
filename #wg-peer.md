@@ -7,10 +7,10 @@ wg-peer [add|show <peer>|del <peer>|list]
 ```
 
 where:
-- **a[dd]**  : add a new peer
-- **s[how]** : show peer configuration
-- **d[el]**  : delete peer
-- **l[ist]** : list peers
+- `a[dd]  ` add a new peer
+- `s[how] ` show peer configuration
+- `d[el]  ` delete peer
+- `l[ist] ` list peers
 
 **\<peer\>** is the peer public key as shown by list command
 
