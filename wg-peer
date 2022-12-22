@@ -21,20 +21,15 @@ main () {
       ;;
     s*)
       show_peer_conf $2
-      return
       ;;
     d*)
-      pk=$2
-      delete_peer $pk
-      return
+      delete_peer $2
       ;;
     l*)
       list_peers
-      return
       ;;
     *)
       usage
-      return
       ;;
   esac
 }
