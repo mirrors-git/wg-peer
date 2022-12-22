@@ -121,7 +121,7 @@ add_new_peer () {
   # Add peer
   wg set ${INTERFACE} peer ${PUBLIC_KEY} preshared-key <(echo ${PRESHARED_KEY}) allowed-ips ${PEER_ADDRESS} || {
     echo "Cannot add peer ${PEER_ADDRESS} with public key ${PUBLIC_KEY}"
-    exit
+    return 1
   }
   wg-quick save ${INTERFACE}
 
