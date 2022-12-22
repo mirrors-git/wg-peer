@@ -131,7 +131,7 @@ add_new_peer () {
   wg-quick save ${INTERFACE}
 
   # Generate peer config
-  read -r -d$'\x01' CONFIG << END_OF_CONFIG
+  read -r -d$'\x04' CONFIG << END_OF_CONFIG
 [Interface]
 Address = ${PEER_ADDRESS}
 PrivateKey = ${PRIVATE_KEY}
