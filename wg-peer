@@ -25,7 +25,6 @@ main () {
       ;;
     d*)
       pk=$2
-      check_peer_exists $pk || return 1
       delete_peer $pk
       return
       ;;
@@ -77,6 +76,7 @@ show_peer_conf () {
 
 delete_peer () {
   local pk=$1
+  check_peer_exists $pk || return 1
   wg set $INTERFACE peer $pk remove && {
     wg-quick save ${INTERFACE}
     clientfile=$CFOLDER/$(md5sum <<<${pk}); clientfile=${clientfile%% *}
