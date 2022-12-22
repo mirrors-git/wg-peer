@@ -15,7 +15,7 @@ where:
 **\<peer\>** is the peer public key as shown by list command
 
 Configuration files for clients are saved in `/etc/wireguard/clients`.
-If there are multiple Wireguard interfaces, wg-peer chooses the first one listed by `wg show interfaces`.
+If there are multiple Wireguard interfaces, wg-peer chooses the first one listed by `wg show interfaces` (most likely `wg0`).
 
 ### Examples
 - list peers: `wg-peer l`
