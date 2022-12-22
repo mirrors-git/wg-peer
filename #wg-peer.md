@@ -1,6 +1,6 @@
 # Manage Wireguard peers (IPv4 only)
 
-List, add or delete Wireguard peers. Also show client configuration for added peers.
+List, add or delete Wireguard peers. Also show client configuration for already added peers.
 
 ```
 wg-peer [add|show <peer>|del <peer>|list]
