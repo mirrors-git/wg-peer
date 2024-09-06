@@ -1,4 +1,5 @@
 #!/bin/bash
+# License: https://creativecommons.org/publicdomain/zero/1.0/
 
 readonly CFOLDER=/etc/wireguard/clients
 readonly THISFILE=$(basename $0)

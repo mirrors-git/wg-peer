@@ -30,3 +30,5 @@ If there are multiple Wireguard interfaces, wg-peer chooses the first one listed
 ![Screenshot](https://images2.imgbox.com/ec/68/56dASc2J_o.png)
 
 Based on [new-wireguard-peer.sh](https://gist.github.com/robinlandstrom/b111240cd74ecab4d358f28b2d4fd8de) by **robinlandstrom**.
+
+[License](https://creativecommons.org/publicdomain/zero/1.0/)
