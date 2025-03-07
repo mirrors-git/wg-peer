@@ -1,3 +1,11 @@
+Made read-only / frozen to preserve the original gist by [@colemar](https://gist.github.com/colemar).
+
+Future improvements (if any), should be made in forks.
+
+Eg. [**sskras/wg-peers**](https://github.com/sskras/wg-peers)
+
+---
+
 # Manage Wireguard peers (IPv4 only)
 
 List, add or delete Wireguard peers. Also show client configuration for already added peers.
